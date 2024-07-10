@@ -1,0 +1,88 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group-inline {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form-group {
+  flex: 1; /* Faz as divs com class form-group ocuparem espaço igual */
+}
+
+form label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+form input, form textarea {
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  width: 160px;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #333;
+  border: 2px solid #555;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 0 auto;
+}
+
+form button:hover {
+  background-color: #444;
+  border-color: #666;
+}
+
+form button:hover {
+  background-color: #EA916B;
+}
+
+form textarea {
+  width: 600px;
+  height: 200px;
+  padding: 0px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+form textarea::placeholder {
+  color: #888;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 1;
+  padding: 15px 20px;
+}
+
+form input {
+  width: 291px;
+  height: auto;
+  padding: 15px 0px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+form input::placeholder {
+  color: #888;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 1;
+  padding: 0px 15px;
+}
